@@ -1,0 +1,51 @@
+[data-theme='light'] {
+  /* Light Theme — Warm Archival Linen */
+  --bg-canvas: #FAF9F6;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F3F1EC;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F8F7F3;
+
+  /* Typography Colors */
+  --text-primary: #1C1917;
+  --text-secondary: #57534E;
+  --text-muted: #8C867F;
+  --text-dim: #B0AAA0;
+
+  /* Borders & Dividers */
+  --border-subtle: #E8E5DC;
+  --border-strong: #D3CDC2;
+  --border-focus: #28362B;
+
+  /* Accents */
+  --accent: #2C3E30;
+  --accent-soft: #EDF3ED;
+  --accent-hover: #1E2B21;
+  --accent-contrast: #FFFFFF;
+
+  /* Status / Intent */
+  --danger: #993333;
+  --danger-soft: #FDF2F2;
+  --warning: #94621A;
+  --warning-soft: #FEF8EE;
+  --success: #2C6E49;
+  --success-soft: #EDF7F1;
+
+  /* Interactive Elements */
+  --tag-bg: #EFECE5;
+  --tag-bg-hover: #E4E0D7;
+  --tag-text: #44403C;
+  --tag-border: transparent;
+
+  /* Header & Navigation */
+  --header-bg: rgba(250, 249, 246, 0.88);
+  --nav-active-bg: #FFFFFF;
+  --nav-active-text: #1C1917;
+  --nav-inactive-text: #706B63;
+  --nav-hover-text: #1C1917;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(28, 25, 23, 0.04);
+  --shadow-md: 0 4px 14px rgba(28, 25, 23, 0.05), 0 1px 3px rgba(28, 25, 23, 0.02);
+  --shadow-lg: 0 12px 28px rgba(28, 25, 23, 0.07), 0 4px 8px rgba(28, 25, 23, 0.03);
+}

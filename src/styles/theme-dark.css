@@ -1,0 +1,51 @@
+[data-theme='dark'] {
+  /* Dark Theme — Obsidian Ink / Calm Digital Archive */
+  --bg-canvas: #121316;
+  --bg-surface: #181A1F;
+  --bg-subtle: #1F222A;
+  --bg-card: #181A1F;
+  --bg-card-hover: #21242D;
+
+  /* Typography Colors */
+  --text-primary: #EDECE8;
+  --text-secondary: #9DA3AF;
+  --text-muted: #646974;
+  --text-dim: #444852;
+
+  /* Borders & Dividers */
+  --border-subtle: #242731;
+  --border-strong: #353945;
+  --border-focus: #6DB591;
+
+  /* Accents */
+  --accent: #6DB591;
+  --accent-soft: #172B21;
+  --accent-hover: #83C9A6;
+  --accent-contrast: #0A1610;
+
+  /* Status / Intent */
+  --danger: #E06C75;
+  --danger-soft: #2D1A1D;
+  --warning: #E5C07B;
+  --warning-soft: #2E2718;
+  --success: #6DB591;
+  --success-soft: #172B21;
+
+  /* Interactive Elements */
+  --tag-bg: #21242E;
+  --tag-bg-hover: #2B303D;
+  --tag-text: #D2D5DD;
+  --tag-border: #2C303D;
+
+  /* Header & Navigation */
+  --header-bg: rgba(18, 19, 22, 0.88);
+  --nav-active-bg: #21242D;
+  --nav-active-text: #EDECE8;
+  --nav-inactive-text: #828793;
+  --nav-hover-text: #EDECE8;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 14px 32px rgba(0, 0, 0, 0.5), 0 4px 10px rgba(0, 0, 0, 0.25);
+}

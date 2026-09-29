@@ -1,0 +1,46 @@
+.autosave-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.02em;
+  transition: all var(--transition-fast);
+}
+
+.badge-saving {
+  background-color: var(--bg-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+}
+
+.save-pulse {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  animation: pulseDot 1s infinite alternate ease-in-out;
+}
+
+@keyframes pulseDot {
+  from { opacity: 0.4; transform: scale(0.85); }
+  to { opacity: 1; transform: scale(1.15); }
+}
+
+.badge-saved {
+  background-color: var(--success-soft);
+  color: var(--success);
+  border: 1px solid transparent;
+}
+
+.save-check {
+  color: var(--success);
+}
+
+.badge-error {
+  background-color: var(--danger-soft);
+  color: var(--danger);
+  border: 1px solid transparent;
+}

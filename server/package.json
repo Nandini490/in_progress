@@ -1,0 +1,22 @@
+{
+  "name": "in-progress-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for In Progress personal journey archive",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

@@ -1,6 +1,6 @@
 import { IEntryRepository } from './storage.interface.js';
 
-const DEFAULT_API_BASE = (import.meta.env && import.meta.env.VITE_API_BASE_URL) || 'http://localhost:5002/api';
+const DEFAULT_API_BASE = (import.meta.env && import.meta.env.VITE_API_BASE_URL) || '/api';
 
 export class HttpApiAdapter extends IEntryRepository {
   constructor(baseUrl = DEFAULT_API_BASE) {
